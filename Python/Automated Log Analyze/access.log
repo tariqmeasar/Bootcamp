@@ -1,0 +1,9 @@
+
+192.168.1.10 - - [14/Nov/2026:10:15:20] "GET /index.php HTTP/1.1" 200
+192.168.1.15 - - [14/Nov/2026:10:16:20] "GET /login.php HTTP/1.1" 200
+192.168.1.20 - - [14/Nov/2026:10:17:20] "GET /search?id=1 UNION SELECT username,password FROM users HTTP/1.1" 200
+192.168.1.25 - - [14/Nov/2026:10:18:20] "GET /images/../../etc/passwd HTTP/1.1" 403
+192.168.1.30 - - [14/Nov/2026:10:19:20] "POST /login.php HTTP/1.1" 200
+192.168.1.35 - - [14/Nov/2026:10:20:20] "GET /products?id=5 HTTP/1.1" 200
+192.168.1.40 - - [14/Nov/2026:10:21:20] "GET /page.php?id=1 OR 1=1 HTTP/1.1" 200
+192.168.1.45 - - [14/Nov/2026:10:22:20] "GET /about.php HTTP/1.1" 200
